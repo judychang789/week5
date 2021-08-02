@@ -1,0 +1,123 @@
+
+
+
+
+.main_top{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 48px;
+    font-weight: bold;
+    h3{
+        font-size: 24px;
+        color: #212529;
+        font-weight: bold;
+    }
+}
+
+.addNewAdmin{
+    margin-left: 30px;
+    a{
+        font-size: 16px;
+        color: #212529;
+        display: flex;
+        align-items: center;
+        i{
+            font-size: 16px;
+            color: #198754;
+            margin-right: 8px;
+        }
+    }
+}
+
+.search_remindArea{
+    display: flex;
+    align-items: center;
+    margin: 0 -16px;
+    position: absolute;
+    right: 0;
+    // top:50%;
+    // transform: translateY(-50%);
+    li{
+        padding: 0 16px;
+        a{
+            display: block;
+            color: #212529;
+            i{
+                color: #212529;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+table.Admin_table{
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+    // border-radius: 3px;
+    // overflow: hidden;
+    th{
+        // width: 16.6%;
+    }
+    td{
+        // width: 16.6%;
+    }
+}
+
+table.Admin_table{
+    thead{
+        border-bottom: #212529 1px solid;
+        tr{
+            th{
+
+            }
+        }
+    }
+
+    tbody{
+        tr{
+            border-bottom: #CED4DA 1px solid;
+            td{
+                padding: 19px 0 17px;
+            }
+        }
+    }
+    
+
+}
+            .eye_pencil{
+                text-align: right;
+                margin: 0 -12px;
+                // display: flex;
+                // align-items: center;
+                // justify-content: flex-end;
+                .eye{
+                    padding: 0 12px;
+                    display: inline-block;
+                }
+                .pencil{
+                    padding: 0 12px;
+                    display: inline-block;
+                }
+                i{
+                    color: #212529;
+                    cursor: pointer; 
+                    font-size: 22px;  
+                    &:hover{
+                        opacity: 0.5;
+                        transition: 0.3s ease all;
+                    }                  
+                }
+            }
+
+
+
+
+
+ 
